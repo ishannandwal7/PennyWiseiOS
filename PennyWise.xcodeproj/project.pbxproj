@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B0A9782E2CC78F6300D0345C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0A9780B2CC78F6100D0345C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0A978122CC78F6100D0345C;
+			remoteInfo = PennyWise;
+		};
+		B0A978382CC78F6300D0345C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0A9780B2CC78F6100D0345C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0A978122CC78F6100D0345C;
+			remoteInfo = PennyWise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0A978132CC78F6100D0345C /* PennyWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennyWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A9782D2CC78F6300D0345C /* PennyWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennyWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A978372CC78F6300D0345C /* PennyWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennyWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B0A9783F2CC78F6300D0345C /* Exceptions for "PennyWise" folder in "PennyWise" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B0A978122CC78F6100D0345C /* PennyWise */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B0A978152CC78F6100D0345C /* PennyWise */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B0A9783F2CC78F6300D0345C /* Exceptions for "PennyWise" folder in "PennyWise" target */,
+			);
+			path = PennyWise;
+			sourceTree = "<group>";
+		};
+		B0A978302CC78F6300D0345C /* PennyWiseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PennyWiseTests;
+			sourceTree = "<group>";
+		};
+		B0A9783A2CC78F6300D0345C /* PennyWiseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PennyWiseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0A978102CC78F6100D0345C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A9782A2CC78F6300D0345C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A978342CC78F6300D0345C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0A9780A2CC78F6100D0345C = {
+			isa = PBXGroup;
+			children = (
+				B0A978152CC78F6100D0345C /* PennyWise */,
+				B0A978302CC78F6300D0345C /* PennyWiseTests */,
+				B0A9783A2CC78F6300D0345C /* PennyWiseUITests */,
+				B0A978142CC78F6100D0345C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0A978142CC78F6100D0345C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0A978132CC78F6100D0345C /* PennyWise.app */,
+				B0A9782D2CC78F6300D0345C /* PennyWiseTests.xctest */,
+				B0A978372CC78F6300D0345C /* PennyWiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0A978122CC78F6100D0345C /* PennyWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A978402CC78F6300D0345C /* Build configuration list for PBXNativeTarget "PennyWise" */;
+			buildPhases = (
+				B0A9780F2CC78F6100D0345C /* Sources */,
+				B0A978102CC78F6100D0345C /* Frameworks */,
+				B0A978112CC78F6100D0345C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B0A978152CC78F6100D0345C /* PennyWise */,
+			);
+			name = PennyWise;
+			packageProductDependencies = (
+			);
+			productName = PennyWise;
+			productReference = B0A978132CC78F6100D0345C /* PennyWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0A9782C2CC78F6300D0345C /* PennyWiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A978452CC78F6300D0345C /* Build configuration list for PBXNativeTarget "PennyWiseTests" */;
+			buildPhases = (
+				B0A978292CC78F6300D0345C /* Sources */,
+				B0A9782A2CC78F6300D0345C /* Frameworks */,
+				B0A9782B2CC78F6300D0345C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0A9782F2CC78F6300D0345C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B0A978302CC78F6300D0345C /* PennyWiseTests */,
+			);
+			name = PennyWiseTests;
+			packageProductDependencies = (
+			);
+			productName = PennyWiseTests;
+			productReference = B0A9782D2CC78F6300D0345C /* PennyWiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0A978362CC78F6300D0345C /* PennyWiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A978482CC78F6300D0345C /* Build configuration list for PBXNativeTarget "PennyWiseUITests" */;
+			buildPhases = (
+				B0A978332CC78F6300D0345C /* Sources */,
+				B0A978342CC78F6300D0345C /* Frameworks */,
+				B0A978352CC78F6300D0345C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0A978392CC78F6300D0345C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B0A9783A2CC78F6300D0345C /* PennyWiseUITests */,
+			);
+			name = PennyWiseUITests;
+			packageProductDependencies = (
+			);
+			productName = PennyWiseUITests;
+			productReference = B0A978372CC78F6300D0345C /* PennyWiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0A9780B2CC78F6100D0345C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B0A978122CC78F6100D0345C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B0A9782C2CC78F6300D0345C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B0A978122CC78F6100D0345C;
+					};
+					B0A978362CC78F6300D0345C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B0A978122CC78F6100D0345C;
+					};
+				};
+			};
+			buildConfigurationList = B0A9780E2CC78F6100D0345C /* Build configuration list for PBXProject "PennyWise" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0A9780A2CC78F6100D0345C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B0A978142CC78F6100D0345C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0A978122CC78F6100D0345C /* PennyWise */,
+				B0A9782C2CC78F6300D0345C /* PennyWiseTests */,
+				B0A978362CC78F6300D0345C /* PennyWiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0A978112CC78F6100D0345C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A9782B2CC78F6300D0345C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A978352CC78F6300D0345C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0A9780F2CC78F6100D0345C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A978292CC78F6300D0345C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A978332CC78F6300D0345C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0A9782F2CC78F6300D0345C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0A978122CC78F6100D0345C /* PennyWise */;
+			targetProxy = B0A9782E2CC78F6300D0345C /* PBXContainerItemProxy */;
+		};
+		B0A978392CC78F6300D0345C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0A978122CC78F6100D0345C /* PennyWise */;
+			targetProxy = B0A978382CC78F6300D0345C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B0A978412CC78F6300D0345C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PennyWise/PennyWise.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 657LM4BA65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PennyWise/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Penny Wise";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishannandwal.PennyWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0A978422CC78F6300D0345C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PennyWise/PennyWise.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 657LM4BA65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PennyWise/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Penny Wise";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishannandwal.PennyWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0A978432CC78F6300D0345C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0A978442CC78F6300D0345C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0A978462CC78F6300D0345C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishannandwal.PennyWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PennyWise";
+			};
+			name = Debug;
+		};
+		B0A978472CC78F6300D0345C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishannandwal.PennyWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PennyWise";
+			};
+			name = Release;
+		};
+		B0A978492CC78F6300D0345C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishannandwal.PennyWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennyWise;
+			};
+			name = Debug;
+		};
+		B0A9784A2CC78F6300D0345C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishannandwal.PennyWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennyWise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0A9780E2CC78F6100D0345C /* Build configuration list for PBXProject "PennyWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A978432CC78F6300D0345C /* Debug */,
+				B0A978442CC78F6300D0345C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A978402CC78F6300D0345C /* Build configuration list for PBXNativeTarget "PennyWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A978412CC78F6300D0345C /* Debug */,
+				B0A978422CC78F6300D0345C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A978452CC78F6300D0345C /* Build configuration list for PBXNativeTarget "PennyWiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A978462CC78F6300D0345C /* Debug */,
+				B0A978472CC78F6300D0345C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A978482CC78F6300D0345C /* Build configuration list for PBXNativeTarget "PennyWiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A978492CC78F6300D0345C /* Debug */,
+				B0A9784A2CC78F6300D0345C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0A9780B2CC78F6100D0345C /* Project object */;
+}
