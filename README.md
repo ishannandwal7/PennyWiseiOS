@@ -16,9 +16,7 @@ PennyWise is an intuitive expense tracker application designed to help users man
 
 - **Visualize Expenses**: View the distribution of expenses by category using a pie chart for better insights into spending habits.
 
-
-/var/folders/_j/wb211drx2bv6707gcfhdvpj80000gn/T/simulator_screenshot_8A8843F5-34F6-4CF0-9E0B-037195DEC1F4.png
-
-/var/folders/_j/wb211drx2bv6707gcfhdvpj80000gn/T/simulator_screenshot_2B017FA7-2555-43A1-82E2-AA68D3D2778B.png
-/var/folders/_j/wb211drx2bv6707gcfhdvpj80000gn/T/simulator_screenshot_1B067038-CF6A-4599-AE22-90DA4C30DFD0.png
-/var/folders/_j/wb211drx2bv6707gcfhdvpj80000gn/T/simulator_screenshot_00E3E9F8-AEB4-4CB7-8E1B-AA3E449AC954.png
+![simulator_screenshot_B507D1B1-8329-4C36-B469-9D25945CCEDC](https://github.com/user-attachments/assets/f79964b6-88fd-4a07-a3d6-6c0079f66455)
+![simulator_screenshot_1121987D-6E1D-47FA-B946-8DD378E85E60](https://github.com/user-attachments/assets/e493bcb6-38f2-4a32-b8a0-afc4c628640b)
+![simulator_screenshot_FEE09986-052B-479F-81F2-C0DFC517D777](https://github.com/user-attachments/assets/d6cc31d5-a140-423a-a0d6-6bfc2d1aaf40)
+![simulator_screenshot_60BEAD42-E4E2-465C-B8E4-B0699FA181F4](https://github.com/user-attachments/assets/b4cfc568-cfcb-4aaf-af67-e0054815d731)
